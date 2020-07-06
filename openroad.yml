@@ -1,0 +1,14 @@
+platform: nangate45   # ['nangate45']
+
+design_name: mult_top
+
+verilog_files:
+  - src/mult_top.v
+  - src/LOBOq2_14bit_1C_v2.v
+  - src/timescale.v
+sdc_file: constraint.sdc
+
+die_area: "0 0 620.15 620.6"
+core_area: "10.07 11.2 610.27 610.8"
+
+clock_period: 100.000
